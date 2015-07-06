@@ -1,0 +1,10 @@
+/* Empty. Add your own CSS if you like */
+.scroll {
+	vertical-align: middle;
+    text-align: center;
+    height: 100%;
+}
+.map{
+    width: 100%;
+    height: 100%;
+}

@@ -1,0 +1,16 @@
+<ion-view view-title="Establecimientos de Salud">
+  <ion-content class="padding">
+    <div class="list card">
+      <ion-list>
+       <ion-item class="item-remove-animate item-avatar item-icon-right" ng-repeat="establecimiento in establecimientos" type="item-text-wrap" href="#/tab/dash/{{establecimiento.id}}">
+        <h2>{{establecimiento.name}}{{ }}{{establecimiento.type}}</h2>
+        <p></p>
+        <i class="icon ion-chevron-right icon-accessory"></i>
+        </ion-option-button>
+      </ion-item>
+</ion-list>
+    </div>
+  </ion-content>
+</ion-view>
+
+

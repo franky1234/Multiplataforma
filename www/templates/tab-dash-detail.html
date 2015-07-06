@@ -1,0 +1,13 @@
+<ion-view view-title="Servicios {{establecimiento.type}} Nivel">
+<ion-content class="padding">
+    <div class="list card">
+       <ion-checkbox ng-repeat="servicio in listServices" class="item-checkbox-right" ng-model="isChecked" >
+        <h2>{{servicio.atencion}}</h2>
+        </ion-checkbox>
+    </div>
+   <div class="buttons">
+    <button class="button button-block button-positive" ng-click="navigate()">Siguiente
+    </button>
+   </div>
+    </ion-content>
+</ion-view>
